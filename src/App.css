@@ -1,0 +1,92 @@
+.quizes {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.quiz-box {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.quiz-box1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.quiz-h {
+  font-size: 1.7rem;
+  text-align: center;
+  text-shadow: 5px 3px 20px burlywood;
+}
+
+.quiz-i {
+  width: 60%;
+  height: 40px;
+  font-size: 1.5rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  border: 3px solid blue;
+}
+
+.quiz-b {
+  height: 40px;
+  width: 58%;
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.3rem;
+  border-radius: 0.5rem;
+}
+
+.sub-btn {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.btns {
+  width: 50%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.btn {
+  width: 50%;
+  height: 70%;
+  border-radius: 0.5rem;
+  background: aqua;
+  box-shadow: 1px 2px 18px 0px #3F51B5;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none;
+}
+
+.correct {
+  color: green;
+}
+
+.wrong {
+  color: red;
+}
+
+.disable {
+  opacity: 0.5;
+}
